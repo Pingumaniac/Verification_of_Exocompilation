@@ -62,12 +62,14 @@ Notice that the compiled C and header files are equivalent to the corresponding 
 git clone https://github.com/Pingumaniac/Verification_of_Exocompilation
 ```
 
-2. Run <name of Exo function>_pysmt.py.
+2. Open the Terminal and move to the corresponding folder for each Exo function.
+
+3. Run name_of_Exo_function_pysmt.py.
 ```
 python3 <name of Exo function>_pysmt.py.
 ```
 
-3. Then, you can check the output to see that I have done equivalence checking of original Exo function and transformed C function correctly.
+4. Then, you can check the output to see that I have done equivalence checking of original Exo function and transformed C function correctly.
 
 ## Future project ideas for further improvements
 
