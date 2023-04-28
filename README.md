@@ -55,6 +55,20 @@ ls out
 ```
 Notice that the compiled C and header files are equivalent to the corresponding C and header files in this repository.
 
+## How to test out my equivalence checking codes in PySMT
+
+1. Download this GitHub repository
+```
+git clone https://github.com/Pingumaniac/Verification_of_Exocompilation
+```
+
+2. Run <name of Exo function>_pysmt.py.
+```
+python3 <name of Exo function>_pysmt.py.
+```
+
+3. Then, you can check the output to see that I have done equivalence checking of original Exo function and transformed C function correctly.
+
 ## Future project ideas for further improvements
 
 #### 1. Represent Python and C functions directly in SMT instead of first representing them in Python and then SMT.
