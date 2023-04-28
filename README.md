@@ -13,10 +13,10 @@ CS 6315 Automated Verification Final Project
 
 ## What I have done?
 
-1. I have used Exocompiler to compile Exo functions embedded in Python into C (most of the functions from the GitHub repository of Exo language).
-2. Next, I have encoded the original Python and transformed C functions in Python.
-3. Then, I have encoded them again in SMT.
-4. Finally, I have used an SMT solver to prove that the original and transformed programs are equivalent.
+1. First, I have used Exocompiler to compile Exo functions embedded in Python into C (most of the functions from the GitHub repository of Exo language).
+2. Second, I have encoded the original Python and transformed C functions in Python.
+3. Third, I have encoded them again in SMT.
+4. Last, I have used an SMT solver to prove that the original and transformed programs are equivalent.
 
 ## What is Exo programming language?
 
