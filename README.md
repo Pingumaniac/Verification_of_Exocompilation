@@ -14,8 +14,9 @@ CS 6315 Automated Verification Final Project
 ## What I have done?
 
 1. I have used Exocompiler to compile Exo functions embedded in Python into C (most of the functions from the GitHub repository of Exo language).
-2. Next, I have encoded the original and transformed programs in Python.
-3. Then, I have used an SMT solver to prove that the original and transformed programs are equivalent.
+2. Next, I have encoded the original Python and transformed C functions in Python.
+3. Then, I have encoded them again in SMT.
+4. Finally, I have used an SMT solver to prove that the original and transformed programs are equivalent.
 
 ## What is Exo programming language?
 
@@ -56,7 +57,7 @@ Notice that the compiled C and header files are equivalent to the corresponding 
 
 ## Future project ideas for further improvements
 
-#### 1. Represent Python and C functions as well in SMT instead of encoding them separately and then checking their equivalence using SMT.
+#### 1. Represent Python and C functions directly in SMT instead of first representing them in Python and then SMT.
 
 I have initially tried this using PySMT expressions such as ForAll, Implies, And, Equals, Plus, Times, etc. For instance, ForAll and Implies can be used to represent the for loop structure in Python instead. Nonetheless, this gave me endless errors for debugging. Hence I have stopped approaching in this way and changed the approach.
 
