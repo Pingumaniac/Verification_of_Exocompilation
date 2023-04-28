@@ -11,7 +11,7 @@ CS 6315 Automated Verification Final Project
 * Associate Professor of Computer Science at Vanderbilt University
 * Website: http://www.taylortjohnson.com/
 
-## What I have done?
+## What have I done?
 
 * First, I have used Exocompiler to compile Exo functions embedded in Python into C (most of the functions from the GitHub repository of Exo language).
 * Second, I have encoded the original Python and transformed C functions in Python.
