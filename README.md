@@ -63,6 +63,9 @@ git clone https://github.com/Pingumaniac/Verification_of_Exocompilation
 ```
 
 2. Open the Terminal and move to the corresponding folder for each Exo function.
+```
+cd <corresponding directory>
+```
 
 3. Run name_of_Exo_function_pysmt.py.
 ```
